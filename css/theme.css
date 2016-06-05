@@ -1,0 +1,56 @@
+body {
+	background: rgb(235, 235, 235);
+}
+
+footer {
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: disc;
+}
+
+footer li {
+	display: inline;
+}
+
+footer li::before { content:"\25aa" }
+
+footer li a {
+	color: grey;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.page-container {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px; 
+	padding-bottom: 0;
+	height: 40px;
+}
+
+.active > a {
+	background: rgb(255, 0, 0);
+}
+
+.navbar {
+	min-height: 40px;
+	background: white;
+	border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.navbar .nav .active > a, 
+.navbar .nav .active > a:hover,
+.navbar .nav .active > a:visited {
+	background: rgb(240, 240, 240);
+}
